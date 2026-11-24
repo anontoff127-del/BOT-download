@@ -28,7 +28,7 @@ sys.stderr.reconfigure(line_buffering=True)
 # Load configuration
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("9276464174:AAHtqHQ7pvpYG9seIHxaAt1aD7D7-8r-oKQ", "").strip()
 API_BASE = os.getenv("API_BASE", "https://honeysee-api.vqx.workers.dev").rstrip("/")
 MAX_FILE_SIZE_BYTES = 50 * 1024 * 1024  # 50 MB Telegram Bot upload limit
 
